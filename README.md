@@ -32,9 +32,9 @@ handler = Handler()
 game = Game(logic, handler)
 game.play()
 ```
-![Example 1](examples\example-1.png)
-![Example 2](examples\example-2.png)
-![Example 3](examples\example-3.png)
+![Example 1](examples/example-1.png)
+![Example 2](examples/example-2.png)
+![Example 3](examples/example-3.png)
 ### Display game results like the real thing!
 ```python
 from wordle.result import get_result
@@ -50,7 +50,7 @@ game.play()
 result = get_result(logic.rules.title, logic.guesses, your_secret_word, logic.rules.max_guesses)
 print(result)
 ```
-![Example 4](examples\example-4.png)
+![Example 4](examples/example-4.png)
 ## License
 
 Check out the license [here](LICENSE).
