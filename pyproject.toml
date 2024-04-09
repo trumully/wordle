@@ -1,0 +1,23 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "wordle"
+version = "0.1.0"
+description = "Wordle clone in Python"
+authors = ["trumully"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[tool.flake8]
+max-line-length = 88
+exclude = [".venv", ".git", "__pycache__", ".pytest_cache", "build", "dist"]
+
+[tool.mypy]
+python_version = "3.12.1"
+ignore_missing_imports = true
