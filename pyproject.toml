@@ -16,7 +16,7 @@ pytest = "^8.1.1"
 
 [tool.flake8]
 max-line-length = 88
-exclude = [".venv", ".git", "__pycache__", ".pytest_cache", "build", "dist"]
+exclude = [".venv", ".git", "__pycache__", ".pytest_cache", "build", "dist", "example.py"]
 
 [tool.mypy]
 python_version = "3.12.1"
